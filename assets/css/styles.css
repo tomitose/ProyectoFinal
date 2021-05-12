@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: #E59866;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #1C2833;
+}
+
+.logo-carrito {
+    width: 30px;
+}
+
+.form-control{
+    width: 700px;
+}
+.form-control::placeholder {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 700;
+}
+
+.form-control:focus{
+    outline: none;
+}
+
+.buscador-btn {
+    color: #A04000;
+}
+
+.segundo-nav {
+    background-color: #E59866;
+    font-weight: 700;
+}
+
+.segundo-nav a {
+    color: #1C2833;
+}
+
+.ventas-carrito {
+    width: 25px;
+}
+
+.ventas-carrito:hover{
+    border: 3px groove #E59866;
+    transition: 0.3s;
+    border-radius: 5%;   
+}
+
+.navbar-toggler {
+    color: #1C2833;
+}
+
+.seccion-carousel {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.carousel-caption {
+    bottom: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+   
+}
+.carousel-item {
+    height: 400px;
+}
+
+.carousel-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.carousel-caption h5 {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+}
+
+.slider-btn {
+    margin-top: 40px;
+}
+
+.ofertas-btn{
+    background-color: #efefef;
+    color: #D4AC0D;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px groove #efefef;
+    margin-top: 50px;
+}
+
+.descripcion {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.seccion-imagenes {
+    margin-right: 0;
+}
+
+h5.card-title {
+    font-weight: bolder;
+}
+
+.footer-inicial {
+    background-color: #E59866;
+    color: #1C2833;
+    font-size: 14px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+}
+
+.footer-parrafo {
+    padding-right: 10px;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+.footer-redes {
+    width: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+
+.iconitos {
+    color: #BA4A00;
+}
+
+.iconitos:hover {
+    color: #D4AC0D;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1240px) { 
+    .segundo-nav {
+        flex-flow: row-reverse;
+    }    
+    .form-control {
+        width: 650px;
+    }
+    #carrito{
+        display: none;
+    }
+}
+
+@media (max-width:850px) {
+    #footer-contactos{
+        height: auto;
+    }
+    .form-control {
+        width: auto;
+    }
+}
+
+
+@media (max-width:780px) {
+    .segundo-nav{
+        font-size: small;
+    }
+    .descripcion {
+        font-size:small
+    }
+    .ofertas-btn{
+        background-color: #efefef;
+        color: #D4AC0D;
+        font-size: 10px;
+        padding: 0.5rem;
+        margin-top: 10px;
+        border-radius: 15px;
+        border: 1px groove #efefef;
+    }
+
+    .slider-boton {
+        margin-top: 15px;
+    }
+
+    .carousel-caption h5 {
+        font-size: 20px;
+        font-weight: 200;
+    }
+    
+    .carousel-caption p {
+        font-size: 10px;
+    }
+    .footer-parrafo{
+        font-size: x-small;
+    }
+}
+
+@media  (max-width:620px){
+    .carousel-item::before {
+        content: "";
+        width: 100%;
+        height: 80%;
+        background-color: black;
+        opacity: 0.5;
+        position: relative;
+    }
+}
+
+@media  (max-width:375px){
+    .nav-link {
+        padding: 5px;
+    }
+    .footer-inicial {
+        justify-content: center;
+    }
+    .footer-parrafo {
+        padding-right: 0;
+    }
+}

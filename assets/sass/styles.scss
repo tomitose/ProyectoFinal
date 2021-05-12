@@ -1,0 +1,118 @@
+/*BEM*/
+.bem--navbar {
+    border-bottom: 2px solid #D4AC0D;
+}
+
+
+$naranja:#BA4A00;
+$negro:#1C2833;
+
+.pagos-medios{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    h4{
+        font-weight: bolder;
+        font-size: medium;
+    }
+}
+
+.container-medios{
+    background-color: #efefef;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $naranja;
+    height: auto;
+    div{        
+    a{
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        margin: 15px;
+
+        h4{
+            color: $negro;
+            font-size: 20px;
+        }
+    }
+    }
+}
+
+.container-medios{
+    div{
+        a
+        {        
+            h4:hover{
+                font-weight: bolder;
+            }
+        }
+    }
+}
+
+
+.img-pagos{
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+        align-self: baseline;
+    }
+
+/*MEDIA QUERIES - PÁG INDEX.HTML*/
+
+    @media (max-width:768px){
+        .container-medios{
+            div{
+                a{
+                    margin: 10px;
+                    h4{
+                        font-size: small;
+                    }
+                }
+            }
+        }
+        .img-pagos{
+            width: 20px;
+            height: 20px;
+        }
+    }
+    
+
+/* Página Registrarse*/
+
+.formulario-registro{
+        margin-top: 50px;
+        height: 100vh;
+    }
+
+
+.form-control {
+    flex: none;
+    width: 400px;
+}
+
+.form-control::placeholder {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 700;
+}
+
+.form-control:focus{
+    outline: none;
+}
+
+/*MEDIA QUERIES - PAG. REGISTRARSE.HTML*/
+
+
+@media (max-width:768px){
+    .formulario-registro{
+        line-height: 0;
+    }
+
+}
+
+@media (max-width:400px){
+    .form-control {
+        width: auto;
+     }
+}

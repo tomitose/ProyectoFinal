@@ -1,0 +1,17 @@
+-RESPONSIVE:
+Los resposive Design de la sección Index los pude arreglar. Y ahora a la sección de 
+Registrarse tambíen le agregue, ya que tenía un problema con las casillas de los input.
+-META(KEYWORDS)
+Agregue los "Meta" con Keywords y Description para que se encuentre en los buscadores
+(Tengo mi duda si los meta para Keywords y Description tengo que ponerlas en cada sección
+o solo en la página principal)
+-TITULO
+Los títulos ya los tenía en cada sección. Todavía me falta definir el nombre del proyecto final
+-TAMAÑO Y COMPRESION DE IMAGENES
+Comprimí todas las imágenes dejandolas mas optimizadas para un mejor almacenamiento
+-REDES SOCIALES COMO CONTACTO
+Las redes sociales las deje como "Contacto" en el footer. Obviamente son fictiacias
+es por eso que solo deje la pagina principal de cada Red Social
+-ORDEN
+Me maneje con un buen orden de encabezado creo yo en toda la web.
+
