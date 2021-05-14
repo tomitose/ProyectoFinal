@@ -8,6 +8,7 @@
 .navbar {
     background-color: #E59866;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .navbar a {
@@ -32,11 +33,13 @@
 
 .buscador-btn {
     color: #A04000;
+    font-size: 14px;
 }
 
 .segundo-nav {
     background-color: #E59866;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .segundo-nav a {
@@ -123,7 +126,7 @@ h5.card-title {
 .footer-inicial {
     background-color: #E59866;
     color: #1C2833;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
