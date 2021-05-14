@@ -60,6 +60,9 @@
     color: #1C2833;
 }
 
+.nav-link:hover{
+    font-size: 16px;
+}
 .seccion-carousel {
     display: flex;
     flex-flow: row wrap;
@@ -151,16 +154,12 @@ h5.card-title {
 }
 
 .iconitos {
-    color: #ec6103;
+    color: #1C2833;
 }
 
 .iconitos:hover {
-    color: #D4AC0D;
+    color: #f5c400;
 }
-
-
-
-
 
 
 
@@ -181,6 +180,10 @@ h5.card-title {
     #carrito{
         display: none;
     }
+}
+
+@media (max-width:1150px){
+    
 }
 
 @media (max-width:850px) {
