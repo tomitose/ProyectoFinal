@@ -11,6 +11,7 @@ body{
 .navbar {
     background-color: #E59866;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .navbar a {
@@ -35,11 +36,13 @@ body{
 
 .buscador-btn {
     color: #A04000;
+    font-size: 14px;
 }
 
 .segundo-nav {
     background-color: #E59866;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .segundo-nav a {
@@ -60,6 +63,9 @@ body{
     color: #1C2833;
 }
 
+.nav-link:hover{
+    font-size: 16px;
+}
 .seccion-carousel {
     display: flex;
     flex-flow: row wrap;
@@ -126,7 +132,7 @@ h5.card-title {
 .footer-inicial {
     background-color: #E59866;
     color: #1C2833;
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -151,16 +157,12 @@ h5.card-title {
 }
 
 .iconitos {
-    color: #ec6103;
+    color: #1C2833;
 }
 
 .iconitos:hover {
-    color: #D4AC0D;
+    color: #f5c400;
 }
-
-
-
-
 
 
 
@@ -181,6 +183,10 @@ h5.card-title {
     #carrito{
         display: none;
     }
+}
+
+@media (max-width:1150px){
+    
 }
 
 @media (max-width:850px) {
