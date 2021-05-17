@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/699906d5d7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="../assets/css/styles.css">
-    <link rel="stylesheet" href="#">
+    <link rel="stylesheet" href="../assets/sass/styles-views.css">
     <link rel="icon" href="../img/logo.ico">
     <title>Ayuda</title>
 </head>
@@ -87,16 +87,18 @@
               </li>
             </ul>
     </header>
-    <main>
+    <main class="contenedor-ayuda">
         <div class="list-group">
-            <h1>¿En qué podes ayudarte?</h1>
+            <h1>¿En qué te podemos ayudar?</h1>
             <button type="button" class="list-group-item list-group-item-action">Mis Pedidos</button>
             <button type="button" class="list-group-item list-group-item-action">Ventas</button>
             <button type="button" class="list-group-item list-group-item-action">Pagos con Tarjetas</button>
             <button type="button" class="list-group-item list-group-item-action">Usuario</button>
             <button type="button" class="list-group-item list-group-item-action">Soporte</button>
-            <input type="search" placeholder="" >
+            <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="">
             <button class="btn btn-light buscador-btn" type="submit">Buscar</button>
+            </form>
           </div>
     </main>
     <footer id="footer-contactos"class="footer-inicial">
