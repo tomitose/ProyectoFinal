@@ -1,4 +1,14 @@
+/*VIEW AYUDA*/
 .list-group {
   height: 100vh;
+}
+
+.search-custom {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+
+.buttom-custom {
+  margin-top: 10px;
 }
 /*# sourceMappingURL=styles-views.css.map */
