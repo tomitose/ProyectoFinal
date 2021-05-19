@@ -37,6 +37,10 @@
   font-size: 20px;
 }
 
+.container-medios {
+  margin-bottom: 50px;
+}
+
 .container-medios div a h4:hover {
   font-weight: bolder;
 }
