@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*VIEW AYUDA*/
 .list-group {
   height: 100vh;
@@ -108,5 +109,30 @@
 .btn-login:hover {
   text-decoration: none;
   opacity: 0.6;
+}
+
+/*VIEW VENTAS*/
+.contenedor-ventas {
+  width: auto;
+  height: 70px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-bottom: 2px solid #E59866;
+}
+
+.contenedor-ventas h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/*MEDIA QUERYS*/
+/*PÁGINA VENTAS*/
+@media (max-width: 360px) {
+  .contenedor-ventas h3 {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=styles-views.css.map */
