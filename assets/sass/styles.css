@@ -52,9 +52,7 @@
   align-self: baseline;
 }
 
-/*MEDIA QUERIES -*/
-
-/*PÁGINA INDEX*/
+/*MEDIA QUERIES - PÁG INDEX.HTML*/
 @media (max-width: 768px) {
   .container-medios div a {
     margin: 10px;
@@ -68,7 +66,7 @@
   }
 }
 
-/* PÁGINA REGISTRARSE*/
+/* Página Registrarse*/
 .formulario-registro {
   margin-top: 50px;
   height: 100vh;
