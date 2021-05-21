@@ -67,6 +67,11 @@
 }
 
 /* Página Registrarse*/
+
+.form-registrarse{
+  padding-left: 3px;
+}
+
 .formulario-registro {
   margin-top: 50px;
   height: 100vh;
