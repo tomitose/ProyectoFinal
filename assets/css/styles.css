@@ -241,6 +241,9 @@ h5.card-title {
         opacity: 0.5;
         position: relative;
     }
+    .carousel-indicators{
+        display: none;
+    }
 }
 
 @media  (max-width:375px){
