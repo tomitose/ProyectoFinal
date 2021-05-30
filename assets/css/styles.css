@@ -153,17 +153,13 @@ body{
     opacity: 0.9;
 }
 
-.md.titulo {
-    font-size: 2rem;
-    font-family: 'Roboto', sans-serif;    
-}
 
 
 /*Sección producto*/
 
 .productos{
-    padding: 3.2rem 0;
     background: white;
+    padding-bottom: 5px;
 }
 
 .producto{
@@ -179,8 +175,8 @@ body{
 .producto-img{
     background: white;
     box-shadow: 0 0 20px 10px white;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     margin: 0 auto;
     border-radius: 50%;
     transition: backgound 0.5s ease;
@@ -207,8 +203,7 @@ body{
 }
 
 .btn-carro {
-    background: black;
-    color: white;
+    background: white;
 }
 
 .btn-carro:hover{
@@ -288,11 +283,6 @@ body{
 
 
 
-
-
-
-
-
 /* Seccion Imágenes */
 
 .seccion-imagenes {
@@ -302,6 +292,65 @@ body{
 h5.card-title {
     font-weight: bolder;
 }
+
+
+
+/*BEM*/
+/*Medios de Pago*/
+.bem--navbar {
+  border-bottom: 2px solid #D4AC0D;
+}
+
+.pagos-medios {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagos-medios h4 {
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.container-medios {
+  background-color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #BA4A00;
+  height: auto;
+}
+
+.container-medios div a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.container-medios div a h4 {
+  color: #1C2833;
+  font-size: 20px;
+}
+
+.container-medios {
+  margin-bottom: 50px;
+}
+
+.container-medios div a h4:hover {
+  font-weight: bolder;
+}
+
+.img-pagos {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  align-self: baseline;
+}
+
+
+/* Footer */
 
 .footer-inicial {
     background-color: #E59866;
@@ -430,7 +479,27 @@ h5.card-title {
     .footer-parrafo {
         padding-right: 0;
     }
+    .producto-img{
+        width: 200px;
+        height: 200px;
+    }
+    
 }
+
+@media (max-width: 768px) {
+    .container-medios div a {
+      margin: 10px;
+    }
+    .container-medios div a h4 {
+      font-size: small;
+    }
+    .img-pagos {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+
 
 /* Sección Ofertas Página principal */
 
@@ -458,3 +527,4 @@ h5.card-title {
         grid-template-columns: repeat(4,1fr);
     }
 }
+
