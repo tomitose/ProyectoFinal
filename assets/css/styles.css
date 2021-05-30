@@ -8,6 +8,8 @@ body{
     background-color: #e7e7e7;
 }
 
+/* Barras de Navegación-Inicio*/
+
 .navbar {
     background-color: #E59866;
     font-weight: 700;
@@ -66,6 +68,9 @@ body{
 .nav-link:hover{
     font-size: 16px;
 }
+
+/* Carousel Principal */
+
 .seccion-carousel {
     display: flex;
     flex-flow: row wrap;
@@ -120,6 +125,175 @@ body{
     font-size: xx-large;
     font-weight: bold;
 }
+/* Sección Ofertas Página principal */
+
+.container-productos{
+    width: 88vw;
+    margin: 0 auto;    
+}
+
+.prod-gafas {
+    width: 100%;
+    display: block;
+}
+
+.sm-titulo{
+    padding-left: 0.6rem 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.lg-titulo{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 1.3rem 0;
+    opacity: 0.9;
+}
+
+.md.titulo {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;    
+}
+
+
+/*Sección producto*/
+
+.productos{
+    padding: 3.2rem 0;
+    background: white;
+}
+
+.producto{
+    margin: 2rem;
+    position: relative; 
+}
+
+.producto-contenido{
+    padding: 3rem 0.5rem 2rem 0.5rem;
+    cursor: pointer;
+}
+
+.producto-img{
+    background: white;
+    box-shadow: 0 0 20px 10px white;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: backgound 0.5s ease;
+}
+
+.producto-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.btn-carro, .btn-comprar{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform:uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+}
+
+.btn-carro {
+    background: black;
+    color: white;
+}
+
+.btn-carro:hover{
+    background: #E59866;
+}
+
+.btn-comprar{
+    background: white;
+}
+
+.btn-comprar:hover{
+    background: #E59866;
+    color: white;
+}
+
+.producto-info{
+    background: #e7e7e7;
+    padding: 2rem;
+}
+
+.producto-info-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating span {
+    color: #E59866;
+}
+
+.producto-nombre{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.producto-precio{
+    padding-top: 0.6rem;
+    padding-right: 0.6rem;
+    display: inline-block;
+}
+
+.producto-precio:first-of-type{
+    text-decoration: line-through;
+    color: #E59866;
+}
+
+.producto-img img{
+    transition: transform 0.6s ease;
+}
+
+.producto:hover .producto-img img {
+    transform: scale(1.1);
+}
+
+.producto:hover .producto-btns{
+    opacity: 1;
+}
+
+.off-info .sm-titulo {
+    background: #E59866;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    z-index: 1;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/* Seccion Imágenes */
 
 .seccion-imagenes {
     margin-right: 0;
@@ -255,5 +429,32 @@ h5.card-title {
     }
     .footer-parrafo {
         padding-right: 0;
+    }
+}
+
+/* Sección Ofertas Página principal */
+
+@media screen and (min-width: 992px){
+    .producto-items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .producto-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .producto{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1336px){
+    .producto-items{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
     }
 }
