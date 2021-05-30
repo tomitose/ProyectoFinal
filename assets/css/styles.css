@@ -153,10 +153,6 @@ body{
     opacity: 0.9;
 }
 
-
-
-/*Sección producto*/
-
 .productos{
     background: white;
     padding-bottom: 5px;
@@ -280,7 +276,6 @@ body{
     letter-spacing: 2px;
     cursor: pointer;
 }
-
 
 
 /* Seccion Imágenes */
@@ -470,6 +465,7 @@ h5.card-title {
 }
 
 @media  (max-width:375px){
+    
     .nav-link {
         padding: 5px;
     }
