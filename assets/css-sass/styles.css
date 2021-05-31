@@ -7,6 +7,10 @@
   height: 100vh;
 }
 
+.form-registrarse {
+  margin-right: auto;
+}
+
 .form-control {
   flex: none;
   width: 400px;
@@ -19,6 +23,7 @@
 
 .form-control:focus {
   outline: none;
+  box-shadow: none;
 }
 
 /*MEDIA QUERIES - PAG. REGISTRARSE.HTML*/
