@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*VIEW AYUDA*/
 .list-group {
   height: 100vh;
@@ -128,6 +127,9 @@
   font-weight: bold;
 }
 
+
+
+
 /*MEDIA QUERYS*/
 /*PÁGINA VENTAS*/
 @media (max-width: 360px) {
@@ -135,4 +137,49 @@
     font-size: 14px;
   }
 }
+
+
+/* VIEW REGISTRARSE*/
+
+
+.formulario-registro {
+  margin-top: 50px;
+  height: 100vh;
+}
+
+.form-registrarse {
+  margin-right: auto;
+}
+
+.form-control {
+  flex: none;
+  width: 400px;
+}
+
+.form-control::placeholder {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+
+
+
+/*MEDIA QUERIES - PAG. REGISTRARSE.HTML*/
+@media (max-width: 768px) {
+  .formulario-registro {
+    line-height: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .form-control {
+    width: auto;
+  }
+}
+
 /*# sourceMappingURL=styles-views.css.map */
