@@ -76,7 +76,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 100px;    
 }
 
 .carousel-caption {
@@ -87,6 +87,7 @@ body{
 }
 .carousel-item {
     height: 400px;
+    position: relative;
 }
 
 .carousel-item::before {
@@ -554,6 +555,9 @@ h5.card-title {
     
     .nav-link {
         padding: 5px;
+    }
+    .carousel-item{
+        height: auto;
     }
     .footer-inicial {
         justify-content: center;
