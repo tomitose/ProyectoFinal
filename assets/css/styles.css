@@ -8,6 +8,8 @@ body{
     background-color: #e7e7e7;
 }
 
+/* Barras de Navegación-Inicio*/
+
 .navbar {
     background-color: #E59866;
     font-weight: 700;
@@ -32,6 +34,7 @@ body{
 
 .form-control:focus{
     outline: none;
+    box-shadow: none;
 }
 
 .buscador-btn {
@@ -66,11 +69,14 @@ body{
 .nav-link:hover{
     font-size: 16px;
 }
+
+/* Carousel Principal */
+
 .seccion-carousel {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 100px;
+    margin-bottom: 100px;    
 }
 
 .carousel-caption {
@@ -81,6 +87,7 @@ body{
 }
 .carousel-item {
     height: 400px;
+    position: relative;
 }
 
 .carousel-item::before {
@@ -120,6 +127,245 @@ body{
     font-size: xx-large;
     font-weight: bold;
 }
+/* Sección Ofertas Página principal */
+
+.container-productos{
+    width: 88vw;
+    margin: 0 auto;    
+}
+
+.prod-gafas {
+    width: 100%;
+    display: block;
+}
+
+.sm-titulo{
+    padding-left: 0.6rem 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.lg-titulo{
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 1.3rem 0;
+    opacity: 0.9;
+}
+
+.productos{
+    background: white;
+    padding-bottom: 5px;
+}
+
+.producto{
+    margin: 2rem;
+    position: relative; 
+}
+
+.producto-contenido{
+    padding: 3rem 0.5rem 2rem 0.5rem;
+    cursor: pointer;
+}
+
+.producto-img{
+    background: white;
+    box-shadow: 0 0 20px 10px white;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 50%;
+    transition: backgound 0.5s ease;
+}
+
+.producto-btns{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.4rem;
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+
+.btn-carro, .btn-comprar{
+    background: transparent;
+    border: 1px solid black;
+    padding: 0.8rem 0;
+    width: 125px;
+    font-family: inherit;
+    text-transform:uppercase;
+    cursor: pointer;
+    border: none;
+    transition: all 0.6s ease;
+}
+
+.btn-carro {
+    background: white;
+}
+
+.btn-carro:hover{
+    background: #E59866;
+    color: white;
+}
+
+.btn-comprar{
+    background: white;
+}
+
+.btn-comprar:hover{
+    background: #E59866;
+    color: white;
+}
+
+.producto-info{
+    background: #e7e7e7;
+    padding: 2rem;
+}
+
+.producto-info-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rating span {
+    color: #E59866;
+}
+
+.producto-nombre{
+    color: black;
+    display: block;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.producto-precio{
+    padding-top: 0.6rem;
+    padding-right: 0.6rem;
+    display: inline-block;
+}
+
+.producto-precio:first-of-type{
+    text-decoration: line-through;
+    color: #E59866;
+}
+
+.producto-img img{
+    transition: transform 0.6s ease;
+}
+
+.producto:hover .producto-img img {
+    transform: scale(1.1);
+}
+
+.producto:hover .producto-btns{
+    opacity: 1;
+}
+
+.off-info .sm-titulo {
+    background: #E59866;
+    color: white;
+    display: inline-block;
+    padding: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    z-index: 1;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* Sección Gaming y Calzado */
+
+.contenedor-ofertas {
+    width: auto;
+    height: 300px;
+    flex-flow: row wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    box-shadow: 0 0 5px 5px #fff;
+    
+}
+
+.gamming-back{
+    background-image: url(../../img/consolas/gamingconsolas.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%; 
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+.gamming-back:hover{
+    background-size: 118%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.gamming-back a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.gamming-back h2 {
+    padding: 10px;
+}
+
+.gamming-back p {
+    font-weight: bolder;
+    padding-left: 10px;
+
+}
+
+.calzado-back {
+    background-image: url(../../img/calzados/ofertascalzados.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    color: #fff;
+    border-left: 1px solid #fff;
+}
+
+.calzado-back:hover{
+    background-size: 118%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.calzado-back a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.calzado-back a:hover{
+    text-decoration: #E59866;
+}
+
+.calzado-back h2{
+    padding: 10px;
+}
+
+.calzado-back p{
+    font-weight: bolder;
+    padding-left: 10px;
+}
+
+.color-overlay {
+    width: 50%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    opacity: .1;
+    position: absolute;
+}
+
+/* Seccion Imágenes */
 
 .seccion-imagenes {
     margin-right: 0;
@@ -128,6 +374,65 @@ body{
 h5.card-title {
     font-weight: bolder;
 }
+
+
+
+/*BEM*/
+/*Medios de Pago*/
+.bem--navbar {
+  border-bottom: 2px solid #D4AC0D;
+}
+
+.pagos-medios {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagos-medios h4 {
+  font-weight: bolder;
+  font-size: medium;
+}
+
+.container-medios {
+  background-color: #fff;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #BA4A00;
+  height: auto;
+}
+
+.container-medios div a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.container-medios div a h4 {
+  color: #1C2833;
+  font-size: 20px;
+}
+
+.container-medios {
+  margin-bottom: 50px;
+}
+
+.container-medios div a h4:hover {
+  font-weight: bolder;
+}
+
+.img-pagos {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  align-self: baseline;
+}
+
+
+/* Footer */
 
 .footer-inicial {
     background-color: #E59866;
@@ -241,11 +546,18 @@ h5.card-title {
         opacity: 0.5;
         position: relative;
     }
+    .carousel-indicators{
+        display: none;
+    }
 }
 
 @media  (max-width:375px){
+    
     .nav-link {
         padding: 5px;
+    }
+    .carousel-item{
+        height: auto;
     }
     .footer-inicial {
         justify-content: center;
@@ -253,4 +565,52 @@ h5.card-title {
     .footer-parrafo {
         padding-right: 0;
     }
+    .producto-img{
+        width: 200px;
+        height: 200px;
+    }
+    
 }
+
+@media (max-width: 768px) {
+    .container-medios div a {
+      margin: 10px;
+    }
+    .container-medios div a h4 {
+      font-size: small;
+    }
+    .img-pagos {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+
+
+/* Sección Ofertas Página principal */
+
+@media screen and (min-width: 992px){
+    .producto-items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .producto-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    .producto{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (min-width: 1336px){
+    .producto-items{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+
