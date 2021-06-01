@@ -285,7 +285,7 @@ body{
 
 .contenedor-tendencias {
     width: auto;
-    height: 300px;
+    height: 400px;
     flex-flow: row wrap;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -304,7 +304,7 @@ body{
     border-right: 1px solid #fff;
 }
 .gamming-back:hover{
-    background-size: 118%;
+    background-size: 108%;
     cursor: pointer;
     text-align: center;
 }
@@ -335,7 +335,7 @@ body{
 }
 
 .calzado-back:hover{
-    background-size: 118%;
+    background-size: 108%;
     cursor: pointer;
     text-align: center;
 }
@@ -538,6 +538,20 @@ h5.card-title {
     }
 }
 
+@media (max-width: 768px) {
+    .container-medios div a {
+      margin: 10px;
+    }
+    .container-medios div a h4 {
+      font-size: small;
+    }
+    .img-pagos {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  
+
 @media  (max-width:620px){
     .carousel-item::before {
         content: "";
@@ -570,22 +584,12 @@ h5.card-title {
         width: 200px;
         height: 200px;
     }
-    
+    .contenedor-tendencias{
+        height: 250px;
+    }
 }
 
-@media (max-width: 768px) {
-    .container-medios div a {
-      margin: 10px;
-    }
-    .container-medios div a h4 {
-      font-size: small;
-    }
-    .img-pagos {
-      width: 20px;
-      height: 20px;
-    }
-  }
-  
+
 
 
 /* Sección Ofertas Página principal */
