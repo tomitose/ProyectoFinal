@@ -131,6 +131,27 @@
 
 
 
+/* Página Registrarse*/
+
+.formulario-registro{
+    margin-top: 50px;
+    height: 100vh;
+}
+
+
+.form-control {
+flex: none;
+width: 400px;
+}
+
+.form-control::placeholder {
+font-family: "Font Awesome 5 Free"; 
+font-weight: 700;
+}
+
+.form-control:focus{
+outline: none;
+}
 
 
 
@@ -153,3 +174,18 @@
 }
 
 
+/* PAG. REGISTRARSE.HTML*/
+
+
+@media (max-width:768px){
+    .formulario-registro{
+        line-height: 0;
+    }
+
+}
+
+@media (max-width:400px){
+    .form-control {
+        width: auto;
+     }
+}

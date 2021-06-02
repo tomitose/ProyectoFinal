@@ -561,6 +561,9 @@ h5.card-title {
         opacity: 0.5;
         position: relative;
     }
+    .carousel-item{
+        height: auto;
+    }
     .carousel-indicators{
         display: none;
     }
@@ -570,9 +573,6 @@ h5.card-title {
     
     .nav-link {
         padding: 5px;
-    }
-    .carousel-item{
-        height: auto;
     }
     .footer-inicial {
         justify-content: center;
