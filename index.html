@@ -7,17 +7,18 @@
     <meta name="keywords" content="COMPRAS, VENTAS, MERCADO, MERCADOLIBRE, AMAZON, PRODUCTOS, OFERTAS, ELECTRODOMÉSTICOS, TECNOLOGÍA">
     <meta name="description" content="La mejor Plataforma para encontrar lo que buscas.Lo último en moda,tecnología,electrodomésticos...">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300;1,500&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/699906d5d7.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="./assets/css-sass/styles.css">
     <link rel="icon" href="img/logo.ico">
-    <title>Proyecto Final</title> <!--No tengo todavía el nombre del proyecto-->
+    <title>Proyecto Final</title> 
 </head>
     <body>
+
+      <!--Header Nav-->
+
         <header class="bem--navbar">
             <nav class="navbar navbar-expand-xl navbar-light col-12">
                 <div class="container-fluid">
@@ -55,10 +56,10 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#ofertas-productos" tabindex="-1" aria-disabled="true">Ofertas</a>
+                            <a class="nav-link" href="./views/ofertas.html" tabindex="-1" aria-disabled="true">Ofertas</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./views/tendencias.html">Tendencias</a>
+                            <a class="nav-link" href="#seccion-tendencias">Tendencias</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./views/ayuda.html">Ayuda</a>
@@ -86,6 +87,9 @@
                   </li>
                 </ul>
         </header>
+
+        <!--Sección Carousel-->
+
         <section class="seccion-carousel">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -95,7 +99,7 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./img/modaellas.jpg" class="d-block w-100 img-carousel" alt="tecno">
+                    <img src="./img/modaellas.jpg" class="d-block w-100" alt="tecno">
                     <div class="carousel-caption d-none d-md-block descripcion">
                       <h5>ELLAS</h5>
                       <p>Lo último en moda</p>                        
@@ -105,7 +109,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/escritorioimg.jpg" class="d-block w-100 img-carousel" alt="ellas">
+                    <img src="./img/escritorioimg.jpg" class="d-block w-100" alt="ellas">
                     <div class="carousel-caption d-none d-md-block descripcion">
                       <h5>TECNOLOGÍA</h5>
                       <p>Armá tu Desktop con lo que se viene</p>
@@ -115,7 +119,7 @@
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./img/ofertasverano.jpg" class="d-block w-100 img-carousel" alt="verano">
+                    <img src="./img/ofertasverano.jpg" class="d-block w-100" alt="verano">
                     <div class="carousel-caption d-none d-md-block descripcion">
                       <h5>TEMPORADA VERANO</h5>
                       <p>Aprovechá estos descuentos</p>
@@ -135,6 +139,8 @@
                 </button>
               </div>
         </section>
+        
+        <!--Ofertas del Mes-->
 
         <div id="ofertas-productos" class="productos">
           <div class="container-productos">
@@ -144,7 +150,7 @@
               <div class="producto">
                 <div class="producto-contenido">
                   <div class="producto-img">
-                    <img class="prod-gafas" src="./img/gafas/rayban2.jpg" alt="gafas">
+                    <img class="img-custom" src="./img/gafas/rayban2.jpg" alt="gafas">
                   </div>
                   <div class="producto-btns">
                     <button type="button" class="btn-carro">
@@ -181,7 +187,7 @@
               <div class="producto">
                 <div class="producto-contenido">
                   <div class="producto-img">
-                    <img class="prod-gafas" src="./img/gafas/raybanwayfarer.jpg" alt="gafas">
+                    <img class="img-custom" src="./img/gafas/raybanwayfarer.jpg" alt="gafas">
                   </div>
                   <div class="producto-btns">
                     <button type="button" class="btn-carro">
@@ -218,7 +224,7 @@
               <div class="producto">
                 <div class="producto-contenido">
                   <div class="producto-img">
-                    <img class="prod-gafas" src="./img/gafas/raybanaviatorblaze.jpg" alt="gafas">
+                    <img class="img-custom" src="./img/gafas/raybanaviatorblaze.jpg" alt="gafas">
                   </div>
                   <div class="producto-btns">
                     <button type="button" class="btn-carro">
@@ -255,7 +261,7 @@
               <div class="producto">
                 <div class="producto-contenido">
                   <div class="producto-img">
-                    <img class="prod-gafas" src="./img/gafas/raybandark.jpg" alt="gafas">
+                    <img class="img-custom" src="./img/gafas/raybandark.jpg" alt="gafas">
                   </div>
                   <div class="producto-btns">
                     <button type="button" class="btn-carro">
@@ -293,8 +299,10 @@
 
           </div>
         </div>
-      
-        <div class="contenedor-ofertas d-flex">
+
+        <!--Sección Tendencias-->
+
+        <div id="seccion-tendencias" class="contenedor-tendencias d-flex">
           <div class="gamming-back" onclick="location.href='./views/pages/gaming.html'">
             <h2 >Sección Gamming</h2>
             <p>Aprovecha estas ofertas</p>
@@ -364,6 +372,9 @@
             </div>
           </div>
         </section>
+
+        <!--Formas de Pago-->
+
         <section>
             <div class="pagos-medios">
               <h4>Formas de Pago</h4>
@@ -375,6 +386,9 @@
               <div><a href="#"><img src="img/acercarse.png" alt="mas" class="img-pagos"><h4>Otros Medios de Pago</h4></a></div>
             </div>
          </section>
+
+         <!--Footer-->         
+
         <footer id="footer-contactos"class="footer-inicial">
             <p class="footer-parrafo">Contactate con nosotros - </p>
             <div class="footer-redes">

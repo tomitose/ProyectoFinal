@@ -7,6 +7,9 @@
 $naranja:#BA4A00;
 $negro:#1C2833;
 
+
+/* Formas de Pago */
+
 .pagos-medios{
     margin-top: 100px;
     display: flex;
@@ -60,25 +63,6 @@ $negro:#1C2833;
         margin-right: 5px;
         align-self: baseline;
     }
-
-/*MEDIA QUERIES - PÁG INDEX.HTML*/
-
-    @media (max-width:768px){
-        .container-medios{
-            div{
-                a{
-                    margin: 10px;
-                    h4{
-                        font-size: small;
-                    }
-                }
-            }
-        }
-        .img-pagos{
-            width: 20px;
-            height: 20px;
-        }
-    }
     
 
 /* Página Registrarse*/
@@ -103,6 +87,27 @@ $negro:#1C2833;
     outline: none;
 }
 
+
+
+
+/* Sección GAMING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*MEDIA QUERIES - PAG. REGISTRARSE.HTML*/
 
 
@@ -117,4 +122,24 @@ $negro:#1C2833;
     .form-control {
         width: auto;
      }
+}
+
+
+/*MEDIA QUERIES - PÁG INDEX.HTML*/
+
+@media (max-width:768px){
+    .container-medios{
+        div{
+            a{
+                margin: 10px;
+                h4{
+                    font-size: small;
+                }
+            }
+        }
+    }
+    .img-pagos{
+        width: 20px;
+        height: 20px;
+    }
 }
