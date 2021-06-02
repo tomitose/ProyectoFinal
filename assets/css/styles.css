@@ -512,6 +512,9 @@ h5.card-title {
     .carousel-indicators{
         display: none;
     }
+    .contenedor-tendencias{
+        height: 300px;
+    }
 }
 
 @media  (max-width:375px){
