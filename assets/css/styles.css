@@ -345,10 +345,6 @@ body{
     color: #fff;
 }
 
-.calzado-back a:hover{
-    text-decoration: #E59866;
-}
-
 .calzado-back h2{
     padding: 10px;
 }
@@ -376,61 +372,6 @@ h5.card-title {
     font-weight: bolder;
 }
 
-
-
-/*BEM*/
-/*Medios de Pago*/
-.bem--navbar {
-  border-bottom: 2px solid #D4AC0D;
-}
-
-.pagos-medios {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-.pagos-medios h4 {
-  font-weight: bolder;
-  font-size: medium;
-}
-
-.container-medios {
-  background-color: #fff;
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid #BA4A00;
-  height: auto;
-}
-
-.container-medios div a {
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  margin: 15px;
-}
-
-.container-medios div a h4 {
-  color: #1C2833;
-  font-size: 20px;
-}
-
-.container-medios {
-  margin-bottom: 50px;
-}
-
-.container-medios div a h4:hover {
-  font-weight: bolder;
-}
-
-.img-pagos {
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
-  align-self: baseline;
-}
 
 
 /* Footer */
@@ -466,7 +407,7 @@ h5.card-title {
 }
 
 .iconitos:hover {
-    color: #f5c400;
+    color: #e4cb68;
 }
 
 
@@ -566,6 +507,9 @@ h5.card-title {
     }
     .carousel-indicators{
         display: none;
+    }
+    .contenedor-tendencias{
+        height: 300px;
     }
 }
 

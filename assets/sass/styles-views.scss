@@ -38,8 +38,7 @@
     max-width: 500px;
     margin: auto;
     padding: 40px 60px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    border-radius: 10px;
     box-shadow: 0px 2px 10px rgb(131,130,130);
     .form-name{
         text-align: center;
@@ -138,6 +137,9 @@
     height: 100vh;
 }
 
+.form-registrarse {
+    margin-right: 0;
+}
 
 .form-control {
 flex: none;
