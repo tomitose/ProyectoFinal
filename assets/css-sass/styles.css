@@ -53,7 +53,19 @@
   align-self: baseline;
 }
 
-/* Sección Pages Gral */
+/* Sección Views-Pages */
+.pagina-navegacion {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+/* Sección Views-Pages/ Bebidas*/
+.body-custom {
+  background-color: #fff;
+}
+
 /*MEDIA QUERIES - Formas de Pago*/
 @media (max-width: 768px) {
   .container-medios div a {
