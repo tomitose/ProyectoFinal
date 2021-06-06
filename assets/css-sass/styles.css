@@ -61,6 +61,11 @@
   background-color: #fff;
 }
 
+/* Sección Views-Pages/ Moda-Juguetes*/
+.productos-back {
+  height: 100vh;
+}
+
 /* Sección Views-Pages/ Bebidas*/
 .body-custom {
   background-color: #fff;
