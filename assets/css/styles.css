@@ -149,9 +149,10 @@ body{
 
 .lg-titulo{
     font-size: 2.5rem;
-    font-weight: 500;
     padding: 1.3rem 0;
     opacity: 0.9;
+    border-bottom: 2px solid #E59866;
+    text-align: center;
 }
 
 .productos{
@@ -305,6 +306,7 @@ body{
     background-size: 108%;
     cursor: pointer;
     text-align: center;
+    padding-top: 20px;
 }
 
 .gamming-back a {
@@ -360,10 +362,13 @@ body{
     position: absolute;
 }
 
+
+
 /* Seccion Imágenes */
 
 .seccion-imagenes {
     margin-right: 0;
+    margin-top: 300px;
 }
 
 h5.card-title {
@@ -478,6 +483,13 @@ h5.card-title {
 }
 
 @media (max-width: 768px) {
+    .container-medios div span {
+        margin: 10px;
+      }
+      .container-medios div span h4 {
+        font-size: small;
+      }
+
     .container-medios div a {
       margin: 10px;
     }

@@ -4,7 +4,7 @@
   border-bottom: 2px solid #D4AC0D;
 }
 
-/* Formas de Pago */
+/* Medios de Pago */
 .pagos-medios {
   margin-top: 100px;
   display: flex;
@@ -20,10 +20,23 @@
   background-color: #fff;
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border: 1px solid #BA4A00;
   height: auto;
+  margin-bottom: 50px;
+}
+
+.container-medios div span {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+
+.container-medios div span h4 {
+  color: #1C2833;
+  font-size: 14px;
 }
 
 .container-medios div a {
@@ -35,11 +48,7 @@
 
 .container-medios div a h4 {
   color: #1C2833;
-  font-size: 20px;
-}
-
-.container-medios {
-  margin-bottom: 50px;
+  font-size: 14px;
 }
 
 .container-medios div a h4:hover {
@@ -61,14 +70,15 @@
   background-color: #fff;
 }
 
-/* Sección Views-Pages/ Moda-Juguetes*/
-.productos-back {
-  height: 100vh;
-}
-
 /* Sección Views-Pages/ Bebidas*/
 .body-custom {
   background-color: #fff;
+}
+
+/* Sección Views-Pages/ Vehículos-Juguetes*/
+.productos-custom {
+  background: white;
+  padding-bottom: 21px;
 }
 
 /*MEDIA QUERIES - Formas de Pago*/
