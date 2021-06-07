@@ -375,7 +375,7 @@ body{
 
 .color-overlay {
     width: 50%;
-    height: 100%;
+    height: auto;
     background: rgb(0, 0, 0);
     opacity: .1;
     position: absolute;
@@ -569,6 +569,7 @@ h5.card-title {
         padding-right: 0;
     }
     .producto-img{
+        padding-top: 20px;
         width: 200px;
         height: 200px;
     }
