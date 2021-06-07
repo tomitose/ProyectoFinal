@@ -52,6 +52,7 @@ body{
     color: #1C2833;
 }
 
+
 .ventas-carrito {
     width: 25px;
 }
@@ -76,13 +77,12 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 100px;    
+    margin-bottom: 60px;    
 }
 
 .carousel-caption {
     bottom: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
+
    
 }
 .carousel-item {
@@ -127,6 +127,28 @@ body{
     font-size: xx-large;
     font-weight: bold;
 }
+
+/* Nombre del Proyecto */
+
+.marca{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;    
+
+}
+
+.marca-texto {
+    font-family: 'Limelight', cursive;
+    border-bottom: 2px solid #E59866;
+}
+
+.logo-oficial {
+    width: 40px;
+    height: 50px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
+
 /* Sección Ofertas Página principal */
 
 .container-productos{
@@ -150,9 +172,10 @@ body{
 
 .lg-titulo{
     font-size: 2.5rem;
-    font-weight: 500;
     padding: 1.3rem 0;
     opacity: 0.9;
+    border-bottom: 2px solid #E59866;
+    text-align: center;
 }
 
 .productos{
@@ -176,7 +199,6 @@ body{
     width: 300px;
     height: 300px;
     margin: 0 auto;
-    border-radius: 50%;
     transition: backgound 0.5s ease;
 }
 
@@ -304,9 +326,8 @@ body{
     border-right: 1px solid #fff;
 }
 .gamming-back:hover{
-    background-size: 108%;
+    background-size: 110%;
     cursor: pointer;
-    text-align: center;
 }
 
 .gamming-back a {
@@ -321,7 +342,6 @@ body{
 .gamming-back p {
     font-weight: bolder;
     padding-left: 10px;
-
 }
 
 .calzado-back {
@@ -335,9 +355,8 @@ body{
 }
 
 .calzado-back:hover{
-    background-size: 108%;
+    background-size: 110%;
     cursor: pointer;
-    text-align: center;
 }
 
 .calzado-back a {
@@ -362,7 +381,19 @@ body{
     position: absolute;
 }
 
+
+
 /* Seccion Imágenes */
+
+.lg-titulo-custom{
+    font-size: 2.5rem;
+    padding: 1.3rem 0;
+    opacity: 0.9;
+    border-bottom: 2px solid #E59866;
+    text-align:initial;
+    padding-left: 20px;
+    margin-top: 300px;
+}
 
 .seccion-imagenes {
     margin-right: 0;
@@ -480,6 +511,13 @@ h5.card-title {
 }
 
 @media (max-width: 768px) {
+    .container-medios div span {
+        margin: 10px;
+      }
+      .container-medios div span h4 {
+        font-size: small;
+      }
+
     .container-medios div a {
       margin: 10px;
     }
@@ -490,18 +528,16 @@ h5.card-title {
       width: 20px;
       height: 20px;
     }
+    
   }
   
 
 @media  (max-width:620px){
-    .carousel-item::before {
-        content: "";
-        width: 100%;
-        height: 80%;
-        background-color: black;
-        opacity: 0.5;
-        position: relative;
+
+    .carousel-caption {
+        bottom: 50px;
     }
+
     .carousel-item{
         height: auto;
     }
@@ -510,6 +546,14 @@ h5.card-title {
     }
     .contenedor-tendencias{
         height: 300px;
+    }
+
+    .lg-titulo{
+        font-size: 1.5rem;
+    }
+    .lg-titulo-custom{
+        font-size: 1.5rem;
+        text-align: center;
     }
 }
 
