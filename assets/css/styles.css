@@ -326,10 +326,8 @@ body{
     border-right: 1px solid #fff;
 }
 .gamming-back:hover{
-    background-size: 108%;
+    background-size: 110%;
     cursor: pointer;
-    text-align: center;
-    padding-top: 20px;
 }
 
 .gamming-back a {
@@ -344,7 +342,6 @@ body{
 .gamming-back p {
     font-weight: bolder;
     padding-left: 10px;
-
 }
 
 .calzado-back {
@@ -358,9 +355,8 @@ body{
 }
 
 .calzado-back:hover{
-    background-size: 108%;
+    background-size: 110%;
     cursor: pointer;
-    text-align: center;
 }
 
 .calzado-back a {
@@ -389,9 +385,18 @@ body{
 
 /* Seccion Imágenes */
 
+.lg-titulo-custom{
+    font-size: 2.5rem;
+    padding: 1.3rem 0;
+    opacity: 0.9;
+    border-bottom: 2px solid #E59866;
+    text-align:initial;
+    padding-left: 20px;
+    margin-top: 300px;
+}
+
 .seccion-imagenes {
     margin-right: 0;
-    margin-top: 300px;
 }
 
 h5.card-title {
@@ -545,6 +550,10 @@ h5.card-title {
 
     .lg-titulo{
         font-size: 1.5rem;
+    }
+    .lg-titulo-custom{
+        font-size: 1.5rem;
+        text-align: center;
     }
 }
 
