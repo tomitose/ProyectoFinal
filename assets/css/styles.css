@@ -52,6 +52,7 @@ body{
     color: #1C2833;
 }
 
+
 .ventas-carrito {
     width: 25px;
 }
@@ -76,7 +77,7 @@ body{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 100px;    
+    margin-bottom: 60px;    
 }
 
 .carousel-caption {
@@ -126,6 +127,28 @@ body{
     font-size: xx-large;
     font-weight: bold;
 }
+
+/* Nombre del Proyecto */
+
+.marca{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 180px;    
+
+}
+
+.marca-texto {
+    font-family: 'Limelight', cursive;
+    border-bottom: 2px solid #E59866;
+}
+
+.logo-oficial {
+    width: 40px;
+    height: 50px;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
+
 /* Sección Ofertas Página principal */
 
 .container-productos{
