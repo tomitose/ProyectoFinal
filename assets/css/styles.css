@@ -463,7 +463,15 @@ h5.card-title {
 }
 
 @media (max-width:1150px){
-    
+    .gamming-back:hover{
+        background-size: 140%;
+        cursor: pointer;
+    }       
+
+    .calzado-back:hover {
+        background-size: 140%;
+        cursor: pointer;
+    }    
 }
 
 @media (max-width:850px) {
@@ -472,6 +480,15 @@ h5.card-title {
     }
     .form-control {
         width: auto;
+    }
+    .gamming-back:hover{
+        background-size: 160%;
+        cursor: pointer;
+    }       
+
+    .calzado-back:hover {
+        background-size: 160%;
+        cursor: pointer;
     }
 }
 
@@ -505,6 +522,16 @@ h5.card-title {
     .carousel-caption p {
         font-size: 10px;
     }
+    .gamming-back:hover{
+        background-size: 160%;
+        cursor: pointer;
+    }       
+
+    .calzado-back:hover {
+        background-size: 160%;
+        cursor: pointer;
+    } 
+
     .footer-parrafo{
         font-size: x-small;
     }
@@ -513,10 +540,10 @@ h5.card-title {
 @media (max-width: 768px) {
     .container-medios div span {
         margin: 10px;
-      }
+    }
       .container-medios div span h4 {
         font-size: small;
-      }
+    }
 
     .container-medios div a {
       margin: 10px;
@@ -524,11 +551,29 @@ h5.card-title {
     .container-medios div a h4 {
       font-size: small;
     }
+    
     .img-pagos {
       width: 20px;
       height: 20px;
     }
-    
+    .gamming-back:hover{
+        background-image: url(../../img/consolas/gamingconsolas.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 50%; 
+        color: #fff;
+        border-right: 1px solid #fff;
+    }
+    .calzado-back:hover {
+        background-image: url(../../img/calzados/ofertascalzados.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 50%;
+        color: #fff;
+        border-left: 1px solid #fff;
+    }
   }
   
 
@@ -569,7 +614,7 @@ h5.card-title {
         padding-right: 0;
     }
     .producto-img{
-        padding-top: 20px;
+        padding-top: 18px;
         width: 200px;
         height: 200px;
     }
