@@ -72,46 +72,60 @@
             </ul>
     </header>
     <main class="formulario-registro">
-     <form class="row g-3 needs-validation form-registrarse" novalidate>
+     <form class="row g-3 needs-validation form-registrarse" novalidate id="formulario">
+        <!--Nombre-->
         <div class="col-md-6">
           <label for="validationCustom01" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="validationCustom01" value="" required>
+          <input type="text" class="form-control" id="validationCustom01" value="" required name="nombre">
           <div class="valid-feedback">
             Bien!
           </div>
         </div>
+        <!--Apellido-->  
         <div class="col-md-12">
           <label for="validationCustom02" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="validationCustom02" value="" required>
+          <input type="text" class="form-control" id="validationCustom02" value="" required name="apellido">
           <div class="valid-feedback">
             Bien!
           </div>
         </div>
+        <!--Usuario-->  
         <div class="col-md-4">
           <label for="validationCustomUsername" class="form-label">Usuario</label>
           <div class="input-group has-validation">
-            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" value="" required>
+            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" value="" required name="usuario">
             <div class="invalid-feedback">
               Por favor elige un Usuario correcto.
             </div>
           </div>
         </div>
+        <!--Contraseña-->  
         <div class="col-md-4">
           <label for="validationCustomPassword" class="form-label">Contraseña</label>
           <div class="input-group has-validation">
-            <input type="password" class="form-control" id="validationCustomPassword" value="" required>
+            <input type="password" class="form-control" id="validationCustomPassword" value="" required name="password">
             <div class="invalid-feedback">
               Por favor elige una Contraseña correcta.
             </div>
           </div>
         </div>
+        <!--E-mail-->
+        <div class="col-md-12">
+          <label for="validationCustomEmail" class="form-label">E-mail</label>
+          <input type="email" class="form-control" id="validationCustomEmail" required name="mail">
+          <div class="invalid-feedback">
+            Por favor elige un mail correcta.
+          </div>
+        </div>
+        <!--Ciudad-->
         <div class="col-md-12">
           <label for="validationCustom03" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="validationCustom03" required>
+          <input type="text" class="form-control" id="validationCustom03" required name="ciudad">
           <div class="invalid-feedback">
             Por favor elige una Ciudad correcta.
           </div>
         </div>
+        <!--País-->
         <div class="col-md-4">
           <label for="validationCustom04" class="form-label">País</label>
           <select class="form-select" id="validationCustom04" required>
@@ -127,16 +141,18 @@
             Por favor elige un País correcto.
           </div>
         </div>
+        <!--Código Postal-->
         <div class="col-md-12">
           <label for="validationCustom05" class="form-label">Código Postal</label>
-          <input type="text" class="form-control" id="validationCustom05" required>
+          <input type="text" class="form-control" id="validationCustom05" required name="codigo">
           <div class="invalid-feedback">
             Por favor ingrese un Código postal correcto.
           </div>
         </div>
+        <!--Terminos-->
         <div class="col-12">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required name="terminos">
             <label class="form-check-label" for="invalidCheck">
               Acepto Término y Condiciones
             </label>
@@ -145,6 +161,7 @@
             </div>
           </div>
         </div>
+        <!--Boton Continuar-->
         <div class="col-12">
           <button class="btn btn-primary" type="submit">Continuar</button>
         </div>
@@ -162,5 +179,6 @@
     </footer>   
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="../assets/js/formulario.js"></script>
 </body>
 </html>
